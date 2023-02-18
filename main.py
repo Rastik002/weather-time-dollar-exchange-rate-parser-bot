@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from keyboards import *
 
 storage = MemoryStorage()
-bot = Bot('5519476914:AAHXbv2RZizXIvL5VF7Dn0FziUIQhAmzNm8')
+bot = Bot('') # BOT TOKEN
 dp = Dispatcher(bot, storage=storage)
 
 option = webdriver.ChromeOptions()
